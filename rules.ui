@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rules</class>
+ <widget class="QDialog" name="rules">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 255, 127);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>891</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ships location:
+	Placing player's ships: You have four 1-deck ships, three 2-deck ships, two 3-deck ships and one 4-deck ship.
+ First of all you have to place 1-deck ships. 
+To do it just click on the area you want to place the ship, but don't place it near already placed one.
+Then place other ships, but unlike 1-deck ships, when you click on the area, you set the start of your ship.
+For example: if you click point [a1] placing 3-deck ships, it will be placed on [a1], [a2], [a3] ([a1], [b1], [c1]).
+ To change orientation click right mouse button. 
+
+Game:
+	 When all the ships are settled, the game starts. User always do the first move.
+ If you hit the enemy's ship, shoot again until miss. You can't shoot one place two more times.
+
+Menu bar:
+	 If you want to start new game or save, click at menu bar in the left top corner and choose the option.
+
+								 Enjoy the game!
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>430</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
